@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url('SegoeUI.eot');
+    src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI.woff') format('woff'),
+    url('SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+        font-family: 'Whitney Light';
+        src: url("fonts/Whitney-Light.eot");
+        src: url('Whitney-Light.eot?#iefix') format('embedded-opentype'),
+        url("fonts/Whitney-Light.woff") format('woff'),
+        url("fonts/Whitney-Light.ttf") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+body{
+    margin: 0;
+}
+
+*,
+*:before
+*::after{
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+.nav{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    font-family: Whitney Light;
+    font-style: normal;
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+}
+.navi1{
+    
+}
+.navi2{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    justify-content: space-between;
+}
+.intro{
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+    width: 100%;
+    height: 670px;
+}
+h1{
+    color: white;
+    font-family: Whitney Light;
+    padding: 200px 0;
+    text-align: justify;
+    position: absolute;
+}
+span{
+    color: white;
+    padding: 350px 0;
+    font-family: Whitney Light;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: justify;
+    position: absolute;
+}
+.container2{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto; 
+    display: flex;
+}
+.intro_picture{
+    padding-top: 65px;
+    padding-left: 520px;
+    
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.features_item{
+    width: 570px;
+    width: 45%;
+    height: 235px;
+    max-height: 235px;
+    background: #F6F5F9;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.text_features{
+    text-align: center;
+    font-family: Open Sans;
+}
+h2{
+    margin-top: 70px;
+}
+.footer{
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+    width: 1170;
+    height: 370;
+    display: flex;
+    
+}
+.footer_image{
+    display: flex;
+    position: end;
+    
+}
+.footer_text{
+    color: white;
+    font-family: Whitney Light;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 45px;
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    padding-top: 70px;
+    padding-left: 70px;
+}
